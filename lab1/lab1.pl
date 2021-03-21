@@ -64,6 +64,16 @@ parent(vladislava,marfa).
 parent(valdislava,vaclav).
 parent(valdislava,vera).
 
+parent(godimir,mlada).
+parent(godimir,elena).
+
+parent(nadejda,mlada).
+parent(nadejda,elena).
+
+parent(marfa,danaya).
+
+parent(vsemil,danaya).
+
 men:-man(X),write(X),nl,fail.
 women:- woman(X), write(X), nl,fail.
 
