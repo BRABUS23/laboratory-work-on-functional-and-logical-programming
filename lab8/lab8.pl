@@ -1,7 +1,7 @@
 %Nomer 1
 %Zadanie1
 
-beret:- see('C:/Users/Legto/OneDrive/Рабочий стол/Prolog/Prolog-/dan.txt').
+beret:- see('D:/SWI Prolog/labs/lab8/lab8.txt').
 
 read_spisstrok(Spis):- read_stroka(A,_,Toch),read_spisstrok([A],Spis,Toch).
 read_spisstrok(Spis,Spis,1):- !.
@@ -107,7 +107,7 @@ n1z4:- beret,read_spisstrok(Spis),spisok_slov_ch(Spis,SpisSlov),
 
 %Zadanie 5
 
-otdaet:- tell('C:/Users/Legto/OneDrive/Рабочий стол/Prolog/Prolog-/out.txt').
+otdaet:- tell('D:/SWI Prolog/labs/lab8/lab8.txt').
 
 unic_spis([],[]):- !.
 unic_spis([H|T],Spis):- rovn1(T,H,NSpis),unic_spis(NSpis,Spis1),
